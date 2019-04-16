@@ -8,7 +8,8 @@
     "start": "cross-env NODE_ENV=development webpack-dev-server --open"
   },
   "dependencies": {
-    "@mdx-js/runtime": "0.20.3",
+    "@mdx-js/runtime": "1.0.0-rc.0",
+    "@mdx-js/mdx": "1.0.0-rc.0",
     "normalize.css": "^8.0.1",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
