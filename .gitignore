@@ -1,0 +1,6 @@
+# npm files
+node_modules/
+*.log*
+
+# Build output
+build/

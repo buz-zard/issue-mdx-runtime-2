@@ -1,0 +1,8 @@
+{
+  "extends": ["@k.sh/eslint-config"],
+  "env": { "browser": true },
+  "rules": {
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": ["!index.js"] }],
+    "no-lone-blocks": 0
+  }
+}
